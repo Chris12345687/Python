@@ -1,0 +1,29 @@
+                                
+1. PS D:\game> git add. 
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS D:\game> git add .
+2. PS D:\game> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    abc.py -> snake.py
+        new file:   test.py
+
+3. PS D:\game> git commit -m "Updated"     
+[main 001d987] Updated
+ 2 files changed, 2 insertions(+)
+ rename abc.py => snake.py (100%)
+ create mode 100644 test.py
+4.PS D:\game> git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 665 bytes | 665.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Chris12345687/Python.git
+   a512a2a..001d987  main -> main
+PS D:\game>
